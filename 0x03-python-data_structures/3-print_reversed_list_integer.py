@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-ddef print_reversed_list_integer(my_list=None):
+def print_reversed_list_integer(my_list=None):
     """Prints integers in reverse"""
     if my_list is None:
         my_list = []
