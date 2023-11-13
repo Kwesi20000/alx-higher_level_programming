@@ -122,7 +122,6 @@ class Rectangle(Base):
         rectangle = ""
         print_symbol = "#"
 
-
         for i in range(self.height):
             rectangle += (" " * self.x) + (print_symbol*self.width) + "\n"
         print(rectangle, end="")
