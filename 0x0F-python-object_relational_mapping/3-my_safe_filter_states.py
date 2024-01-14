@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Script to display values in the 'states' table where the name matches the input.
+Script to display all values in the states table of hbtn_0e_0_usa
+where name matches the argument (safe from MySQL injection).
 """
 
 import MySQLdb
@@ -8,7 +9,7 @@ from sys import argv
 
 if __name__ == '__main__':
     """
-    Access to the database and get the states
+    The access to the database and get the states
     from the database.
     """
 
