@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Script to list all State objects containing the letter 'a' from the database hbtn_0e_6_usa.
+Script to list all State objects that contain the letter 'a'
+from the database hbtn_0e_6_usa.
 """
 
 from sys import argv
